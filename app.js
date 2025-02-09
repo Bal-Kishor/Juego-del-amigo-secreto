@@ -17,3 +17,11 @@ function agregarAmigo()
         console.log(listaAmigos);
         return
     }
+
+function sortearAmigo()
+    {
+    let indiceSorteado = Math.floor(Math.random() * listaAmigos.length); 
+    let amigoGanador = listaAmigos[indiceSorteado]; 
+
+    alert(`El amigo sorteado es: ${amigoGanador}`);
+    }
