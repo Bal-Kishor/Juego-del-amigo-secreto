@@ -24,4 +24,9 @@ function sortearAmigo()
     let amigoGanador = listaAmigos[indiceSorteado]; 
 
     alert(`El amigo sorteado es: ${amigoGanador}`);
+    reiniciar ();
+    }
+function reiniciar ()
+    {
+        listaAmigos=[];
     }
