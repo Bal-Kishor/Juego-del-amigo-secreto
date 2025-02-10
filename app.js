@@ -12,9 +12,10 @@ function agregarAmigo()
         else
         {
             listaAmigos.push(nombreAmigo);  
-           
+            document.getElementById("amigo").value = '';
         }
         console.log(listaAmigos);
+        
         return
     }
 
